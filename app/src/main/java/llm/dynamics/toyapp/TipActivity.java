@@ -37,7 +37,7 @@ public class TipActivity extends AppCompatActivity {
 
         // Next Button Click
         nextButton.setOnClickListener(view -> {
-            if (tipNumber < 10) {
+            if (tipNumber < 20) {
                 tipNumber++;
                 restartActivity();
             } else {
